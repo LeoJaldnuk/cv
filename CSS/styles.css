@@ -16,13 +16,16 @@ hr {
   height: 0;
   width: 6%;
 }
+.circular {
+  border-radius: 100%;
+}
+
 .image-cropper {
   width: 200px;
   height: 200px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  shape-outside: circle(50%);
 }
 
 img {
