@@ -19,7 +19,7 @@ hr {
 .image-cropper {
   width: 200px;
   height: 200px;
-  position: left;
+  position: relative;
   overflow: hidden;
   border-radius: 50%;
   shape-outside: circle(50%);
