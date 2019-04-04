@@ -1,0 +1,32 @@
+h1 {
+  color: #113f67;
+}
+h3 {
+  color: #38598b;
+}
+body {
+  background-color: #e7eaf6;
+}
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: dotted none none none;
+  border-color: #38598b;
+  border-width: 8px;
+  height: 0;
+  width: 6%;
+}
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  position: left;
+  overflow: hidden;
+  border-radius: 50%;
+  shape-outside: circle(50%);
+}
+
+img {
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
