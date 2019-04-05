@@ -1,0 +1,78 @@
+/*
+Colombian Flag Color Codes
+#FCD116
+#003893
+#CE1126
+
+Canadian Flag Color Codes
+#FF0000
+#FFFFFF
+
+#003893
+#FCD116
+#CE1126
+#FF0000
+#FFFFFF
+*/
+body {
+  background-color: #003893;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #FCD116;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  color: #FF0000;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: #FCD116;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 3px double #FF0000;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 60%;
+
+}
+hr::after {
+  content: '💛';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+p {
+  text-align: center;
+  color: #FCD116;
+}
+img {
+  border-radius: 10%;
+}
+
+.vt323 {
+  font-family: 'VT323', monospace;
+}
+
+.anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.dancingscript {
+  font-family: 'Dancing Script', cursive;
+}
